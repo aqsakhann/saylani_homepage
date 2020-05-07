@@ -3,10 +3,11 @@
       src: url(Merriweather-Black.ttf);
   }
   .header ,.scroll{
-background-color: rgb(63, 61, 184);
+background-color: rgb(13, 101, 201);
 color: white;
- 
+
 }
+
 
 .fa{
     color: white;
@@ -15,15 +16,29 @@ color: white;
     font-size: medium;
     text-align: right;
     margin-top: 15px;
+  
     word-spacing: 15px;
 }
+
+
+@media only screen and (max-width: 700px) {
+    .links {
+        text-align: center;
+    }
+  }
+
 .bt{
-    text-align: left;
-    margin-top: 15px;
-    color: black;
-}
-h5{
     text-align: center;
+    margin-top: 12px;
+    color: rgb(153, 143, 143);
+    font-size: small;
+}
+.h5{
+    text-align: center;
+  font-weight: lighter;
+}
+.nav{
+    max-height: 70px;
 }
 #int_blue, .what{
     color: blue;
@@ -48,6 +63,11 @@ h5{
 
 .count{
     color: white;
+    font-family: merri;
+    font-size: 40px;
+}
+.a{
+    background-color: greenyellow;
 }
 .diff{
     font-family: serif;
@@ -65,6 +85,9 @@ h5{
      margin-top: 25px;
      height: 40px;
 }
+.r5{
+    padding-bottom: 50px;
+}
 .r5 , .r7, .r8{
     
     background-color: whitesmoke;
@@ -73,6 +96,7 @@ h5{
 .r9{
     margin-bottom: 0%;
 }
+
 
 .services{
     background-color: white;
@@ -155,7 +179,7 @@ div.gallery:hover {
       opacity:0.9;
   }
   .r11{
-      background-color: rgba(0, 0, 0, 0.74);
+      background-color: rgb(37, 39, 46) ;
       color: white;
       padding-bottom: 2%;
       margin-top: 5%;
@@ -166,8 +190,8 @@ div.gallery:hover {
      font-weight: lighter;
      color: lightgrey;
   }
-  .colored-theme{
-    color: greenyellow;
+  .colored{
+    color: #427900 !important;
   }
   
 ul{
@@ -204,6 +228,10 @@ ul{
     text-align: center;
 
 }
+
+.scroll{
+    margin-top: 7px;
+}
 .scrollup{
     background-color:rgb(0, 0, 0);
     width: 35px;
@@ -219,4 +247,14 @@ ul{
 }
 .color{
     color: black;
+}
+
+.cen-logo{
+color: green;
+font-size: xx-large;
+}
+.blue{
+    padding: 45px;
+    background-color:rgb(13, 101, 201) ;
+ 
 }
